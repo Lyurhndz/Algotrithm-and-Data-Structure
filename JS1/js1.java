@@ -143,31 +143,31 @@ import java.util.Scanner;
 // }
 
 //FUNCTION
-public class js1 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int[][] stocks = { { 10, 5, 15, 7 }, { 6, 11, 9, 12 }, { 2, 10, 10, 5 }, { 5, 7, 12, 9 } };
-        int[] price = { 75000, 50000, 60000, 10000 };
-        displayIncome(stocks, price);
+// public class js1 {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int[][] stocks = { { 10, 5, 15, 7 }, { 6, 11, 9, 12 }, { 2, 10, 10, 5 }, { 5, 7, 12, 9 } };
+//         int[] price = { 75000, 50000, 60000, 10000 };
+//         displayIncome(stocks, price);
 
-        displayChangeBranch4(stocks);
-    }
+//         displayChangeBranch4(stocks);
+//     }
 
-    static void displayIncome(int[][] stocks, int[] price) {
-        for (int i = 0; i < stocks.length; i++) {
-            int totalIncome = 0;
-            for (int j = 0; j < stocks[i].length; j++) {
-                totalIncome += stocks[i][j] * price[j];
-            }
-            System.out.println("Total income for each branch " + (i + 1) + ": " + totalIncome);
-        }
-    }
+//     static void displayIncome(int[][] stocks, int[] price) {
+//         for (int i = 0; i < stocks.length; i++) {
+//             int totalIncome = 0;
+//             for (int j = 0; j < stocks[i].length; j++) {
+//                 totalIncome += stocks[i][j] * price[j];
+//             }
+//             System.out.println("Total income for each branch " + (i + 1) + ": " + totalIncome);
+//         }
+//     }
 
-    static void displayChangeBranch4(int[][] stocks) {
-        int changeStock[] = { 1, 2, 0, 5 };
-        for (int i = 0; i < stocks.length; i++) {
-            stocks[3][i] -= changeStock[i];
-            System.out.println("The new stock in branch 4 is : " + stocks[3][i]);
-        }
-    }
-}
+//     static void displayChangeBranch4(int[][] stocks) {
+//         int changeStock[] = { 1, 2, 0, 5 };
+//         for (int i = 0; i < stocks.length; i++) {
+//             stocks[3][i] -= changeStock[i];
+//             System.out.println("The new stock in branch 4 is : " + stocks[3][i]);
+//         }
+//     }
+// }
