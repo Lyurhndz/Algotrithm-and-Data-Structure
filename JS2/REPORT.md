@@ -5,9 +5,9 @@
 | Kelas | TI - 1I |
 | Repository | https://github.com/Lyurhndz/Algotrithm-and-Data-Structure/tree/main/JS1 |
 
-# Labs #1 Programming Fundamentals Review
+# Labs #2 Object
 
-## 2.1.1. Selection Solution
+## 2.1 Declaring Classes, Attributes, and Methods
 
 The solution is implemented in js1.java, and below is screenshot of the result.
 
