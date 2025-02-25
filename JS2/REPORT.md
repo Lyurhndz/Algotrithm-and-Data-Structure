@@ -102,12 +102,15 @@ QUESTION
 The solution is implemented in course7.java and courseMain.java, and below is the scrennshot of result.
 
 **Class code**
+
 ![image](https://github.com/user-attachments/assets/f1ec6826-6bae-4fe1-94d4-93f612fa7f4e)
 
 **Main Code**
+
 ![image](https://github.com/user-attachments/assets/76113236-a105-4065-b085-3d805d6a4ee4)
 
 **Result**
+
 ![image](https://github.com/user-attachments/assets/5b21a0ec-a7e2-427d-aa10-59f6994017bd)
 
 
@@ -116,10 +119,13 @@ The solution is implemented in course7.java and courseMain.java, and below is th
 The solution is implemented in lecturer7.java and lecturerMain.java, and below is the screenshots of result.
 
 **Class Code**
+
 ![image](https://github.com/user-attachments/assets/54b87129-7e23-4520-9f0b-57faf4d26e62)
 
 **Main Code**
+
 ![image](https://github.com/user-attachments/assets/88050621-069e-4b0b-8545-9440872228f4)
 
 **Result**
+
 ![image](https://github.com/user-attachments/assets/9b039a19-16fc-4e28-9f90-198c5b18db95)
