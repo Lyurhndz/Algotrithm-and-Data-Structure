@@ -14,9 +14,9 @@ public class StudentMain {
         student1.updateGPA(3.9);
         student1.print();
 
-        Student7 studentDevin = new Student7("244107020138", "Devin", "TI-1I", 3.6);
-        studentDevin.updateGPA(3.8);
-        studentDevin.print();
+        // Student7 studentDevin = new Student7("244107020138", "Devin", "TI-1I", 3.6);
+        // studentDevin.updateGPA(3.8);
+        // studentDevin.print();
 
 
     }
