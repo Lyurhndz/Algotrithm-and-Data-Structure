@@ -16,19 +16,19 @@ The solution is implemented in Rectangle.java & ArrayoOfObject.java, and below i
 **Brief explanaton:** There are 4 main step: 
 
 *Rectangle.java:*
-1. Declare the two variables for width and height as an integer.
+1. Declare the two variables which is width and height as an integer.
 
 *ArrayOfObject.java*
-1. Create an array of the Rectangle Class
+1. Create an array of the Rectangle Class.
 2. Insert values of each Array's attributes.
-3. Print the whole value in the array
+3. Print the inserted value in the array.
 
 **Questions:**
-1. No. Because the class did not have any method, but just an attribute.
-2. No. It is to instansiate each object in the array.
-3. Declaring an array of the Rectangle object.
-4. Instantsiate the Rectangle object and input the width and length variable.
-5. No. We can just move the main method in the ArrayOfObject.java to the Rectangle.java
+1. No, because the class only had an attribute, not any methods.
+2. No, it is meant to instantiate each object within the array.
+3. Defining an array of Rectangle objects.
+4. Instantiate the Rectangle object and assign values to the width and length variables.
+5. No, we can simply move the main method from ArrayOfObject.java to Rectangle.java.
 
 ## 1.3 Input Data Into Array Object Using Loops
 
@@ -38,20 +38,20 @@ The solution is implemented in ArrayOfObjects.java, and below is the screenshot 
 
 **Brief explanationn:** There are 4 main step:
 
-1. Declare an array for the rectangle object
-2. Loop a length and width input process to input a value for each array
-3. Loop a print each rectangle's width and length process
+1. Declare an array to hold Rectangle objects.
+2. Use a loop to repeatedly input values for the width and length for each element in the array.
+3. Use a loop to print the width and length of each rectangle.
 
 **Questions:**
-1. Yes it can
-2. The row of the array can be the width of the rectangle and the the column can be the length of the rectangle
-3. Because the squareArray object is not yet instantiated, yet we immediately input a value into the array
+1. Yes, it is possible.
+2. The rows of the array can represent the width of the rectangle, and the columns can represent the length.
+3. This happens because the squareArray object has not been instantiated yet, but we are trying to input values into the array immediately.
 4. 
 
 ![image](https://github.com/user-attachments/assets/2c2617aa-3bd8-40dd-ad94-4c6b7f04a8e1)
 ![image](https://github.com/user-attachments/assets/6c12e1bc-7ec6-4363-8579-f2ae8b3b78eb)
 
-5. The previous values for the object will be lost and replaced with the latest instantiated object
+5. The previous values of the object will be overwritten and replaced with the newly instantiated object.
 
 ## 1.4 Mathematical operation in array of object's attribute
 
@@ -61,9 +61,9 @@ The solution is implemented in ArrayBlocks.java & Blocks.java and below is the s
 
 **Brief explanationn:** There are 4 main step:
 
-1. Declare Blocks Array
-2. Input and instansiate every object and its values for each array
-3. Prints out the Volume of the blocks by using the function in the Blocks class
+1. Declare an array of Block objects.  
+2. Input values and instantiate each object within the array.  
+3. Print the volume of each block by calling the function from the Block class.
 
 **Questions:**
 1. Yes. We can put both default constructor and parameterized constructor
