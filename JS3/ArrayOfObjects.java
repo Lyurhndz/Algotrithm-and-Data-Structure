@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArrayOfObjects {
     public static void main(String[] args) {
-        Rectangle[] rectangleArray = new Rectangle[10];
+        Rectangle[] rectangleArray = new Rectangle[3];
         Scanner sc = new Scanner(System.in);
 
         for(int i = 0; i < rectangleArray.length; i++) {

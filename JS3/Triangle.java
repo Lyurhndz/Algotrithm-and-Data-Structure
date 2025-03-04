@@ -1,9 +1,7 @@
 public class Triangle {
-    public int base;
-    public int height;
+    public int base, height;
 
     public Triangle() {
-
     }
 
     public Triangle(int a, int t) {
