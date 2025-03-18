@@ -13,6 +13,13 @@ public class Power7 {
         }
         return result;
     }
+    // int powerBF() {
+    //     int result = 1;
+    //     for (int i = 0; i < this.exponent; i++) {
+    //         result = result * this.baseNumber;
+    //     }
+    //     return result;
+    // }
 
     int powerDC(int n, int e){
         if (e==1) {

@@ -1,9 +1,18 @@
 public class Factorial7 {
     
-    int factorialBF(int n){
-        int facto=1;
-        for (int i = 1; i <= n; i++) {
-            facto=facto*i;
+    // int factorialBF(int n){
+    //     int facto=1;
+    //     for (int i = 1; i <= n; i++) {
+    //         facto=facto*i;
+    //     }
+    //     return facto;
+    // }
+    int factorialBF(int n) {
+        int facto = 1;
+        int i = 1;
+        while (i <= n) {
+            facto = facto * i;
+            i++;
         }
         return facto;
     }
