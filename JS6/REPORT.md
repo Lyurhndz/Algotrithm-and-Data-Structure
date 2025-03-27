@@ -16,13 +16,22 @@ The solution is implemented in Sorting7.java & SortingMain7.java, and below is s
 **Brief explanaton:** There are 3 main step: 
 
 *Sorting7.java:*
-contain two methods to calculate factorial using Brute Force, which is a simple loop, and using Divide Conquer, 
-which is recursive approach.
+1. Initialized two integer variables (integer array data and integer size).
+2. Initialized a parameterized constructor.
+3. Creating methods for sorting.
+   a. Bubble Sort:
+      Compares adjacent elements and swaps them if they're in the wrong order.
+      Then proceed to repeats the process until the entire array is sorted.
+   b. Selection Sort:
+      Finds the smallest element in the unsorted portion and swaps it with the first unsorted element.
+   c. Insertion Sort:
+      Builds a sorted array one element at a time by inserting each element into its correct position.
+4. Create method to print.
 
 *SortingMain7.java:*
-1. Input a number as a base.
-2. Creating object to use Factorial methods.
-3. Print the result of the final calculation of factorial based from the inputted number using BF and DC methods.
+1. Initialize Array
+2. Create Sorting object
+3. Test each Sorting algorithm
 
 **Questions:**
 1. Swaps adjacent elements if out of order *(data[j] > data[j + 1])* , moving larger values to the right.
@@ -46,16 +55,27 @@ The solution is implemented in Student7.java, TopStudents7.java & StudentDemo7.j
 **Brief explanationn:** There are 3 main step:
 
 *Student7.java:*
-1. Initializes two integer variables (baseNumber and exponent).
-2. Initializes parameterized constructor.
-3. Set up two methods using Brute Force approach and Divide Conquer approach.
-
+1. Initializes specific data type for each variables, declare the class attributes.
+2. Initiliazies default and parameterized constructor.
+3. Create method to print
+ 
 *PowerMain.java:*
-1. Input the element number. Give new value to index of the array.
-2. Input base number and exponent however as much as the index of the array allow.
-3. Print the result of the final calculation of exponentiation using BF and DC methods.
+1. Initializes array.
+2. Initializes tracking index.
+3. Create method add to inputs new student object into the array.
+4. Create method print to display all stored students.
+5. Create methods of Sorting algorithm:
+   a. bubbleSort(): Descending order by GPA (swaps adjacent elements).
+   b. selectionSort(): Ascending order by GPA (selects minimum elements).
+   c. insertionSort(): Ascending order by GPA (builds sorted subarray).
 
 *StudentDemo7.java:*
+1. Instantiate TopStudents7 objects.
+2. Create 5 students records.
+3. Display original list of the student array based by GPA.
+4. Display a sorted result by Bubble Sort in descending order.
+5. Display a sorted result by Selection Sort in ascending order.
+6. Display a sorted result by Insertion Sort in ascending order.
 
 **Questions:**
 1Loop Conditions
