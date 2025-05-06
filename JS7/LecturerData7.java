@@ -47,7 +47,7 @@ public class LecturerData7 {
     }
 
     //ADDITION FOR 7.5 ASSIG
-    public int sequentialSearch(String searchName) {
+    public int sequentiSearchal(String searchName) {
         for (int i = 0; i < idx; i++) {
             if (listLecturer7s[i].name.equalsIgnoreCase(searchName)) {
                 return i;

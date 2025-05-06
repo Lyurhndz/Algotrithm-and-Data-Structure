@@ -7,7 +7,7 @@ public class SortingMain7 {
         Sorting7 sorting = new Sorting7(a);
         Sorting7 sorting2 = new Sorting7(b);
         Sorting7 sorting3 = new Sorting7(c);
-
+ 
         System.out.println("original Array: ");
         sorting.print();
         sorting.bubbleSort();
