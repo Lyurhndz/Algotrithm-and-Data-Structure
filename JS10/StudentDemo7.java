@@ -51,7 +51,15 @@ public class StudentDemo7 {
                 System.out.println("All the assignments list");
                 System.out.println("Name\tNIM\tClass");
                 stack.print();
+                System.out.println("Pending assignments: " + stack.countAssignments());
                     break;
+                
+                case 5:
+                Student7 first = stack.getFirst();
+                if (first != null) {
+                System.out.println("First submission by: " + first.name);
+                }
+                break;
             
                 default:
                     System.out.println("Invalid choice");

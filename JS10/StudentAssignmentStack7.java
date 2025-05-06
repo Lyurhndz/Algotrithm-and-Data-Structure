@@ -59,4 +59,17 @@ public class StudentAssignmentStack7 {
         }
         System.out.println(" ");
     }
+
+    public Student7 getFirst() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack is empty!");
+            return null;
+        }
+    }
+
+    public int countAssignments() {
+        return top + 1; 
+    }
 }
