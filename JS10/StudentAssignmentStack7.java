@@ -72,4 +72,19 @@ public class StudentAssignmentStack7 {
     public int countAssignments() {
         return top + 1; 
     }
+
+    String convertToBinary(int grade){
+        ConversionStack stack = new ConversionStack();
+        while (grade > 0) {
+        int mod = grade % 2;
+        stack.push(mod);
+        grade = grade / 2;
+        }
+        String binary = "";
+        while (!stack.isEmpty()) {
+        binary += stack.pop();
+        }
+        return binary;
+        }
+        
 }
