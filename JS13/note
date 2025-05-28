@@ -1,0 +1,16 @@
+qs 1
+
+1. The difference between single linked list and double linked list is if the single one, it only contain one pointer which is pointer to next,
+    while the double one, the node contain two pointers which is pointer prev adn pointer next that connect the node before and after the said node.
+2. The purposes of the attributes next and prev is both are used to connect and create link with other node before and after the said node.
+3. The constructor is to initialize head and tail value to be null for DoubleLinkedList
+4. Based from the line *head = tail = newNode;* in addFirst() method, it will be used if the node that get added in an empty list, the node will become the head and tail of the linked list
+5. Statement *head.prev=newNode* means accesing the head node and use the head attributes prev to connect and link to the newNode.
+6. Statement *temp.next.prev=newNode* means we accesing the node after the temp and use the its prev attribut /pointer to connect to the newNode.
+7. Using advance traversal using next to access the node after node. for that, we use Statement *temp=temp.next* to move temp node to the next temp.
+8. if the temp equal with tail, then the program will exexcute addLast() method when we insert the new data.
+9. Statement if(temp.data.nim.equalsIgnoreCase(key)) is being used in the insertAfter() to process the selection of all nodes.
+
+qs2
+
+1. 
